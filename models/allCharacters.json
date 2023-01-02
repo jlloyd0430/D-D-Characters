@@ -1,0 +1,353 @@
+[
+    {
+      "id": 1,
+      "name": "Aria",
+      "class": "Paladin",
+      "level": 7,
+      "race": "Half-Elf"
+    },
+    {
+      "id": 2,
+      "name": "Balthazar",
+      "class": "Sorcerer",
+      "level": 9,
+      "race": "Human"
+    },
+    {
+      "id": 3,
+      "name": "Cedric",
+      "class": "Fighter",
+      "level": 4,
+      "race": "Dwarf"
+    },
+     {
+      "id": 4,
+      "name": "Daria",
+      "class": "Ranger",
+      "level": 5,
+      "race": "Elf"
+    },
+    {
+      "id": 5,
+      "name": "Ethan",
+      "class": "Wizard",
+      "level": 8,
+      "race": "Human"
+    },
+    {
+      "id": 6,
+      "name": "Fiona",
+      "class": "Cleric",
+      "level": 6,
+      "race": "Halfling"
+    },
+     {
+      "id": 7,
+      "name": "Eli",
+      "class": "Bard",
+      "level": 3,
+      "race": "Human"
+    },
+    {
+      "id": 8,
+      "name": "Gwen",
+      "class": "Druid",
+      "level": 2,
+      "race": "Half-Elf"
+    },
+    {
+      "id": 9,
+      "name": "Hector",
+      "class": "Rogue",
+      "level": 6,
+      "race": "Human"
+    },
+    {
+      "id": 10,
+      "name": "Irina",
+      "class": "Monk",
+      "level": 4,
+      "race": "Human"
+    },
+     {
+      "id": 11,
+      "name": "Jared",
+      "class": "Fighter",
+      "level": 5,
+      "race": "Human"
+    },
+    {
+      "id": 12,
+      "name": "Kaitlyn",
+      "class": "Cleric",
+      "level": 3,
+      "race": "Half-Elf"
+    },
+    {
+      "id": 13,
+      "name": "Liam",
+      "class": "Rogue",
+      "level": 7,
+      "race": "Human"
+    },
+    {
+      "id": 14,
+      "name": "Mia",
+      "class": "Paladin",
+      "level": 2,
+      "race": "Halfling"
+    },
+    {
+      "id": 15,
+      "name": "Nate",
+      "class": "Sorcerer",
+      "level": 6,
+      "race": "Human"
+    },
+    {
+      "id": 16,
+      "name": "Olivia",
+      "class": "Druid",
+      "level": 4,
+      "race": "Elf"
+    },
+    {
+      "id": 17,
+      "name": "Parker",
+      "class": "Monk",
+      "level": 3,
+      "race": "Human"
+    },
+    {
+      "id": 18,
+      "name": "Quinn",
+      "class": "Wizard",
+      "level": 1,
+      "race": "Human"
+    },
+    {
+      "id": 19,
+      "name": "Rachel",
+      "class": "Bard",
+      "level": 9,
+      "race": "Human"
+    },
+    {
+      "id": 20,
+      "name": "Samuel",
+      "class": "Barbarian",
+      "level": 8,
+      "race": "Human"
+    },
+    {
+      "id": 21,
+      "name": "Tara",
+      "class": "Ranger",
+      "level": 7,
+      "race": "Half-Elf"
+    },
+    {
+      "id": 22,
+      "name": "Uma",
+      "class": "Fighter",
+      "level": 4,
+      "race": "Human"
+    },
+    {
+      "id": 23,
+      "name": "Vincent",
+      "class": "Sorcerer",
+      "level": 3,
+      "race": "Human"
+    },
+    {
+      "id": 24,
+      "name": "Wendy",
+      "class": "Cleric",
+      "level": 6,
+      "race": "Halfling"
+    },
+    {
+      "id": 25,
+      "name": "Xander",
+      "class": "Monk",
+      "level": 5,
+      "race": "Human"
+    },
+    {
+      "id": 26,
+      "name": "Yara",
+      "class": "Wizard",
+      "level": 8,
+      "race": "Human"
+    },
+    {
+      "id": 27,
+      "name": "Zach",
+      "class": "Bard",
+      "level": 1,
+      "race": "Human"
+    },
+    {
+      "id": 28,
+      "name": "Abby",
+      "class": "Barbarian",
+      "level": 9,
+      "race": "Human"
+    },
+    {
+      "id": 29,
+      "name": "Brayden",
+      "class": "Paladin",
+      "level": 2,
+      "race": "Human"
+    },
+    {
+      "id": 30,
+      "name": "Carla",
+      "class": "Druid",
+      "level": 7,
+      "race": "Half-Elf"
+    },
+     {
+      "id": 31,
+      "name": "Dave",
+      "class": "Fighter",
+      "level": 4,
+      "race": "Dwarf"
+    },
+    {
+      "id": 32,
+      "name": "Emma",
+      "class": "Sorcerer",
+      "level": 3,
+      "race": "Human"
+    },
+    {
+      "id": 33,
+      "name": "Frank",
+      "class": "Cleric",
+      "level": 6,
+      "race": "Halfling"
+    },
+    {
+      "id": 34,
+      "name": "Gina",
+      "class": "Monk",
+      "level": 5,
+      "race": "Human"
+    },
+    {
+      "id": 35,
+      "name": "Hannah",
+      "class": "Wizard",
+      "level": 8,
+      "race": "Human"
+    },
+    {
+      "id": 36,
+      "name": "Ian",
+      "class": "Bard",
+      "level": 1,
+      "race": "Human"
+    },
+    {
+      "id": 37,
+      "name": "Jasmine",
+      "class": "Barbarian",
+      "level": 9,
+      "race": "Human"
+    },
+    {
+      "id": 38,
+      "name": "Karen",
+      "class": "Paladin",
+      "level": 2,
+      "race": "Human"
+    },
+    {
+      "id": 39,
+      "name": "Larry",
+      "class": "Druid",
+      "level": 7,
+      "race": "Half-Elf"
+    },
+    {
+      "id": 40,
+      "name": "Maggie",
+      "class": "Ranger",
+      "level": 4,
+      "race": "Elf"
+    },{
+      "id": 41,
+      "name": "Nina",
+      "class": "Fighter",
+      "level": 5,
+      "race": "Human"
+    },
+    {
+      "id": 42,
+      "name": "Owen",
+      "class": "Sorcerer",
+      "level": 3,
+      "race": "Human"
+    },
+    {
+      "id": 43,
+      "name": "Pam",
+      "class": "Cleric",
+      "level": 6,
+      "race": "Halfling"
+    },
+    {
+      "id": 44,
+      "name": "Quincy",
+      "class": "Monk",
+      "level": 5,
+      "race": "Human"
+    },
+    {
+      "id": 45,
+      "name": "Randy",
+      "class": "Wizard",
+      "level": 8,
+      "race": "Human"
+    },
+    {
+      "id": 46,
+      "name": "Sara",
+      "class": "Bard",
+      "level": 1,
+      "race": "Human"
+    },
+    {
+      "id": 47,
+      "name": "Tina",
+      "class": "Barbarian",
+      "level": 9,
+      "race": "Human"
+    },
+    {
+      "id": 48,
+      "name": "Ursula",
+      "class": "Paladin",
+      "level": 2,
+      "race": "Human"
+    }, {
+      "id": 49,
+      "name": "Violet",
+      "class": "Druid",
+      "level": 7,
+      "race": "wood-elf"
+    },
+    {
+    "id": 50,
+    "name": "Drizzt",
+    "class": "Weapons-Master",
+    "level": 10,
+    "race": "Dark-elf"
+    }
+    
+  ]
+
+

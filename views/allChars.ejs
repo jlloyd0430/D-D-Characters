@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+
+  <title>All Characters</title>
+  <style>
+
+    body {
+  color: white;
+  background-color: black;
+  font-family: 'Yeon Sung', cursive;
+}
+  nav {
+	height: 85px;
+	border-bottom: solid rgb(203, 84, 24);
+}
+
+nav h1 {
+	font-size: 40px;
+	margin: 20px;
+	/* margin-top: 20px; */
+	display: inline-block;
+  color: #fff;
+  
+}
+
+nav a {
+	color:rgb(203, 84, 24);
+	text-decoration: none;
+	float: right;
+	margin: 20px;
+	margin-top: 30px;
+
+}
+
+.nav-buttons {
+	display: inline-block;
+}
+
+    a {
+      text-decoration: none;
+      color: rgb(0, 0, 218);
+    }
+
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      color: rgb(203, 84, 24);
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #666666;
+    }
+    button {
+      font-size: 20px;
+      margin: 20px;
+      border-radius: 11px;
+      padding: 20px;
+      border: solid 2px rgb(203, 84, 24);
+    }
+
+    .character {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .character-card {
+      border-radius: 11px;
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 20px;
+      overflow: hidden;
+      border: solid 2px rgb(203, 84, 24);
+    }
+
+    .character-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .character-card h3 {
+      font-size: 18px;
+      text-align: center;
+      margin: 10px;
+    }
+
+    .character-card p {
+      font-size: 14px;
+      margin: 10px;
+    }
+
+    .character-card button {
+      background-color: rgb(203, 84, 24);
+      color: #ffffff;
+      font-size: 14px;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+    }
+
+    .character-card button:hover {
+      background-color: rgb(203, 84, 24);
+    }
+  </style>
+</head>
+
+<nav>
+  <!-- <a class="menu-icon" href="#">&#9776;</a> -->
+
+  <h1>D&D.io</h1>
+  <!-- <div class="nav-buttons"></div> -->
+  <a class="nav-buttons" href="/allChars">All</a>
+  <a class="nav-buttons" href="/createChar">Create</a>
+  <a class="nav-buttons" href="/">Home</a>
+  <!-- </div> -->
+</nav>
+
+<body>
+  <!-- Takes client to a form page where they can create a new document -->
+   <button><a href="createChar">Create a new Character</a></button>
+
+  <div class="character">
+    <!-- This populates each document in the collection -->
+    <% Character.forEach( (Char)=> { %>
+      <div class="character-card">
+        <h1>
+          Character ID# <%= Char.id %>
+        </h1>
+        <h2>
+          Name: <a href="/oneChar/<%=Char.name%>">
+            <%= Char.name %>
+          </a>
+        </h2>
+      </div>
+      <% }) %>
+      
+      </div>
+  
+  </div>
+</body>
+
+</html>

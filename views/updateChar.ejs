@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+
+  <title>update <%=Character.name%>
+  </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+      font-family: 'Yeon Sung', cursive;
+    }
+
+    nav {
+	height: 85px;
+	border-bottom: solid rgb(203, 84, 24);
+}
+
+nav h1 {
+
+	font-size: 40px;
+	margin: 20px;
+	/* margin-top: 20px; */
+	display: inline-block;
+  color: #fff;
+  
+}
+h1{
+  text-align: center;
+
+}
+
+nav a {
+	color:rgb(203, 84, 24);
+	text-decoration: none;
+	float: right;
+	margin: 20px;
+	margin-top: 30px;
+
+}
+
+.nav-buttons {
+	display: inline-block;
+}
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      border-radius: 11px;
+      border: 2px solid rgb(203, 84, 24);
+      
+    }
+
+    label {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 10px;
+    }
+  </style>
+
+<nav>
+  <!-- <a class="menu-icon" href="#">&#9776;</a> -->
+
+  <h1>D&D.io</h1>
+  <!-- <div class="nav-buttons"></div> -->
+  <a class="nav-buttons" href="/allChars">All</a>
+  <a class="nav-buttons" href="/createChar">Create</a>
+  <a class="nav-buttons" href="/">Home</a>
+  <!-- </div> -->
+</nav>
+
+
+<body>
+  <form action="/api/updateOneCharacter/<%=Character.name%>?_method=PUT" method="post">
+
+    <!-- Each name attribute pertains to how it's captured in the back-end -->
+    <label for="id">ID #</label>
+    <input type="text" placeholder="<%=Character.id%>" value="<%=Character.id%>" id="id"
+      name="id"><br><br>
+
+    <label for="name">Name</label>
+    <input type="text" placeholder="<%=Character.name%>" value="<%=Character.name%>" id="name" name="name"><br><br>
+
+    <label for="class">Class</label>
+    <input type="text" placeholder="<%=Character.class%>" value="<%=Character.class%>" id="class" name="class"><br><br>
+
+    <label for="level">Level</label>
+    <input type="text" placeholder="<%=Character.level%>" value="<%=Character.level%>" id="level" name="level"><br><br>
+
+    <label for="race">Race</label>
+    <input type="text" placeholder="<%=Character.race%>" value="<%=Character.race%>" id="race" name="race"><br><br>
+
+    
+
+    <input type="submit" name="_method" value="Update Character">
+  </form>
+
+</body>
+
+</html>
