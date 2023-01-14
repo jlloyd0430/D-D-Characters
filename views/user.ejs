@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D&D App</title>
+</head>
+
+<body>
+  <h1>Welcome to D&D.io <%= user %>
+  </h1>
+  <br>
+  <a href="/">go back to the homepage</a>
+  <br>
+  <!--  takes clients to see all the Pokemon -->
+  <a href="/allChars"> click here to see the list of Characters!</a>
+  <br>
+  <ul>
+    Favorite Character:
+    <% favoriteCharacter.forEach((char)=> { %>
+      <li>
+        <a href="/oneChar/<%=char%>">
+          <%=char%>
+        </a>
+      </li>
+      <% }) %>
+  </ul>
+
+  <a href="/logout">Click here to Logout</a>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D&D App</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<style>
+  body {
+    font-family: 'Alfa Slab One', sans-serif;
+    background-color: black;
+    color: rgb(203, 84, 24);
+    font-family: sans-serif;
+    padding: auto;
+    margin: auto;
+    height: 769px;
+  }
+
+  main {
+    font-family: 'Alfa Slab One', sans-serif;
+  }
+
+  .phrase {
+    margin-top: 200px;
+    margin-left: 50px;
+    display: inline-block;
+    /* flex-direction: column; */
+    /* align-content: center; */
+    width: 300px;
+    height: 250px;
+
+  }
+
+  footer {
+    background-color: rgb(203, 84, 24);
+    height: 255px;
+    margin-top: 300px;
+    /* margin-bottom: 50px; */
+  }
+
+
+  nav {
+    font-family: 'Alfa Slab One', sans-serif;
+    height: 85px;
+    margin-bottom: 80px;
+    border-bottom: solid rgb(203, 84, 24);
+  }
+
+  nav h1 {
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+    /* margin-top: 20px; */
+    display: inline-block;
+  }
+
+  nav a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    margin: 20px;
+    margin-top: 30px;
+  }
+
+  nav a:hover {
+    color: rgb(203, 84, 24);
+  }
+
+  .name {
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 40px;
+    /* margin-bottom: 100px; */
+    /* margin-top: 20px; */
+    display: inline;
+  }
+
+
+  .button {
+
+    margin: 15px;
+    border: solid 1px rgb(203, 84, 24);
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+    padding-top: 8px;
+  }
+
+  .signup-button {
+
+    margin: 15px;
+    background-color: rgb(203, 84, 24);
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    padding: 8px;
+  }
+
+  input,
+  button {
+    font-size: 1.15em;
+    padding: 5px 15px;
+    display: block;
+    margin: 1em auto;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  .container {
+    width: 250px;
+    margin: 30px auto;
+    /* background-color: #fff; */
+    min-height: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: 5px solid rgb(203, 84, 24);
+    color: rgb(203, 84, 24);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+
+</style>
+<body>
+  <nav>
+    <!-- <a class="menu-icon" href="#">&#9776;</a> -->
+  
+    <h1>D&D.io</h1>
+  
+  </nav>
+
+  <a style="color: blue;" href="/">Go back to the home page</a>
+
+
+
+<div class="container">
+
+<form action="/api/user/logInUser" method="post">
+
+    <h3 id="pls-login"> Please sign in</h3>
+
+    <input type="text" name="username" id="username" placeholder="username">
+
+    <input type="password" name="password" id="password" placeholder="password">
+
+    <button id="login-btn">Submit</button>
+
+    <br>
+    <h3 id="response"></h3>
+
+  </form>
+
+</div>
+  
+
+</body>
+
+</html>
