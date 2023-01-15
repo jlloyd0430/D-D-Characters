@@ -164,17 +164,16 @@ nav h1 {
   
 
     <a href="/updateChar/<%=Character.name%>" style="margin: auto;">Update This Character</a>
-
-
-
-      <% if(loggedIn && !userFaves.includes(Character._id)) {%>
+    <br>
+    <br>
+      <% if(loggedIn && !userFaves.includes(Character._id)) { %>
         <form action="/api/user/addFavoriteCharacter?_method=PUT" method="post">
             <input type="hidden" name="charId" value="<%=Character._id%>"> 
             <input type="submit" name="_method" value="Add this Character to Favorites">
         </form>
     <% } %>
 
-    <form action="/api/deleteOneCharacter/<%=Character.name%>?_method=DELETE" method="post" style="margin-top: 15px;">
+    <form action="/api/Character/deleteOneCharacter/<%=Character.name%>?_method=DELETE" method="post" style="margin-top: 15px;">
       <input type="submit" name="_method" value="DELETE THIS CHARACTER">
     </form>
 </body>

@@ -80,7 +80,7 @@ nav a {
       padding: 12px 10px;
     }
   </style>
-
+ 
 <nav>
   <!-- <a class="menu-icon" href="#">&#9776;</a> -->
 
@@ -94,7 +94,7 @@ nav a {
 
 <body>
   <!-- This form, when submitted, sends form data to the back-end -->
-  <form action="/api/createOneCharacter" method="post">
+  <form action="/api/Character/createOneCharacter" method="post">
 
     <!-- Each name attribute pertains to how it's captured in the back-end -->
     <label for="id">ID #</label>
@@ -112,7 +112,7 @@ nav a {
     <label for="race">Race</label>
     <input type="text" id="race" name="race" size="50"><br><br>
 
-    <input type="submit" value="CreateOneCharacter">
+    <input type="submit" value="createOneCharacter">
   </form>
 </body>
 

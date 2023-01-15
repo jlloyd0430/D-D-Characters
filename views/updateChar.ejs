@@ -94,12 +94,11 @@ nav a {
 
 
 <body>
-  <form action="/api/updateOneCharacter/<%=Character.name%>?_method=PUT" method="post">
+  <form action="/api/Character/updateOneCharacter/<%=Character.name%>?_method=PUT" method="post">
 
     <!-- Each name attribute pertains to how it's captured in the back-end -->
     <label for="id">ID #</label>
-    <input type="text" placeholder="<%=Character.id%>" value="<%=Character.id%>" id="id"
-      name="id"><br><br>
+    <input type="text" placeholder="<%=Character.id%>" value="<%=Character.id%>" id="id" name="id"><br><br>
 
     <label for="name">Name</label>
     <input type="text" placeholder="<%=Character.name%>" value="<%=Character.name%>" id="name" name="name"><br><br>

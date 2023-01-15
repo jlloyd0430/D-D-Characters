@@ -28,6 +28,19 @@ nav :hover {
   color: #fff;
 }
 
+.act-btn {
+      font-family: 'Yeon Sung', cursive;
+      /* padding: 10px; */
+      border: solid 2px rgb(203, 84, 24);
+      background-color: black;
+      float: right;
+      border-radius: 11px;
+      margin: none;
+      padding: none;
+
+    }
+
+
 nav h1 {
 	font-size: 40px;
 	margin: 20px;
@@ -37,17 +50,22 @@ nav h1 {
   
 }
 
-nav a {
+/* nav a {
 	color:rgb(203, 84, 24);
 	text-decoration: none;
 	float: right;
 	margin: 20px;
 	margin-top: 30px;
 
-}
+} */
 
 .nav-buttons {
-	display: inline-block;
+	/* display: inline-block; */
+  color:rgb(203, 84, 24);
+	text-decoration: none;
+	float: right;
+	margin: 20px;
+	margin-top: 30px;
 }
 
     a {
@@ -65,13 +83,7 @@ nav a {
       font-size: 24px;
       color: #666666;
     }
-    button {
-      font-size: 20px;
-      margin: 20px;
-      border-radius: 11px;
-      padding: 20px;
-      border: solid 2px rgb(203, 84, 24);
-    }
+   
 
     .character {
       display: flex;
@@ -120,6 +132,8 @@ nav a {
     .character-card button:hover {
       background-color: rgb(203, 84, 24);
     }
+
+    
   </style>
 </head>
 
@@ -128,6 +142,7 @@ nav a {
 
   <h1>D&D.io</h1>
   <!-- <div class="nav-buttons"></div> -->
+  <button class="act-btn"><a class="nav-buttons" href="/user">Account</a></button>
   <a class="nav-buttons" href="/allChars">All</a>
   <a class="nav-buttons" href="/createChar">Create</a>
   <a class="nav-buttons" href="/">Home</a>
